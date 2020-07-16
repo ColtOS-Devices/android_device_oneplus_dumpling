@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dumpling device
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
-# Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common Colt stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := xtended_dumpling
+PRODUCT_NAME := colt_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -46,7 +46,7 @@ BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.021/4565141:user/r
 
 TARGET_VENDOR := oneplus
 
-XTENDED_BUILD_TYPE := OFFICIAL
+COLT_BUILD_TYPE := Official
 
 # Maintainer
-XTENDED_MAINTAINER := mukesh22584
+COLT_DEVICE_MAINTAINER := mukesh22584

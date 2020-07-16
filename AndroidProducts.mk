@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_dumpling.mk
+    $(LOCAL_DIR)/colt_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_dumpling-user \
-    xtended_dumpling-userdebug \
-    xtended_dumpling-eng
+    colt_dumpling-user \
+    colt_dumpling-userdebug \
+    colt_dumpling-eng
